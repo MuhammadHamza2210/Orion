@@ -10,9 +10,11 @@ pinned: false
 
 # Orion — Stock Universe
 
-> **Live:** the FastAPI backend runs on this Hugging Face Space; the React
-> frontend is on Vercel. Written AI analysis is powered by Google Gemini, and the
-> live market data uses a built-in simulator (reliable for a hosted demo).
+> 🔴 **Live demo:** **https://orion-nine-wine.vercel.app/**
+>
+> The React trading dashboard is on Vercel; the FastAPI backend runs on Hugging
+> Face. Written AI analysis is powered by Google Gemini; live market data streams
+> from Yahoo Finance with a built-in simulator fallback.
 
 A full-stack stock dashboard for 50 tickers across 5 sectors. Live prices stream
 from a FastAPI + yfinance backend over WebSockets into a dark trading UI with
